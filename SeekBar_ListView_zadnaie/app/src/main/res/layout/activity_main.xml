@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="16px"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/settingsListView"
+        android:layout_width="match_parent"
+        android:layout_height="792dp" />
+
+    <TextView
+        android:id="@+id/editingLabelTextView"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8px"
+        android:layout_marginBottom="8px"
+        android:text="Wybierz opcję z listy powyżej!!" />
+
+    <SeekBar
+        android:id="@+id/valueSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:min="0"
+        android:max="100" />
+
+    <TextView
+        android:id="@+id/seekBarValueTextView"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8px"
+        android:gravity="center"
+        android:text="Wartość:" />
+</LinearLayout>
