@@ -13,7 +13,7 @@
     <ListView
         android:id="@+id/settingsListView"
         android:layout_width="match_parent"
-        android:layout_height="792dp" />
+        android:layout_height="248dp" />
 
     <TextView
         android:id="@+id/editingLabelTextView"
